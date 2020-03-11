@@ -1,0 +1,80 @@
+{
+  "definitions": {
+    "Tender": {
+      "properties": {
+        "valueDetails": {
+          "title": "Review details",
+          "description": "Precise information on deadline(s) for review procedure.",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "valueCalculationMethod": {
+          "title": "Value calculation method",
+          "description": "Method used for calculating the estimated value of the concession.",
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "Organization": {
+      "properties": {
+        "details": {
+          "properties": {
+            "url": {
+              "title": "Website URL",
+              "description": "The Web address of the website of the organization.",
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "buyerProfile": {
+              "title": "Buyer profile URL",
+              "description": "The Web address of the buyer profile.",
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "Award": {
+      "properties": {
+        "valueCalculationMethod": {
+          "title": "Value calculation method",
+          "description": "Any details relevant to the value of the concession according to article 8(3) of the directive of 2014 on concessions.",
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "Contract": {
+      "properties": {
+        "periodRationale": {
+          "title": "Contract period rationale",
+          "description": "Rationale for the duration of the contract.",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "publicPassengerTransportServicesKilometers": {
+          "title": "Kilometers of public passenger transport services",
+          "description": "The size of the public transport network procured in the contract, in kilometers.",
+          "type": [
+            "number",
+            "null"
+          ]
+        }
+      }
+    }
+  }
+}

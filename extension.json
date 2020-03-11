@@ -1,0 +1,17 @@
+{
+  "name": {
+    "en": "European Union"
+  },
+  "description": {
+    "en": "Implements schemas and codes that are specific to the European law."
+  },
+  "documentationUrl": {
+    "en": "https://github.com/open-contracting-extensions/ocds_eu_extension"
+  },
+  "compatibility": [
+    "1.1"
+  ],
+  "schemas": [
+    "release-schema.json"
+  ]
+}
