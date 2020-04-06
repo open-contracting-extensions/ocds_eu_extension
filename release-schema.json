@@ -12,7 +12,7 @@
         },
         "valueCalculationMethod": {
           "title": "Value calculation method",
-          "description": "Method used for calculating the estimated value of the concession.",
+          "description": "The method used for calculating the estimated value of the concession.",
           "type": [
             "string",
             "null"
@@ -48,7 +48,7 @@
       "properties": {
         "valueCalculationMethod": {
           "title": "Value calculation method",
-          "description": "Any details relevant to the value of the concession according to article 8(3) of the directive of 2014 on concessions.",
+          "description": "Any details relevant to the value of the concession according to article 8(3) of the directive 2014/23/EU on concession contracts.",
           "type": [
             "string",
             "null"
@@ -60,7 +60,7 @@
       "properties": {
         "periodRationale": {
           "title": "Contract period rationale",
-          "description": "Rationale for the duration of the contract.",
+          "description": "The rationale for the duration of the contract.",
           "type": [
             "string",
             "null"
