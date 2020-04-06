@@ -2,7 +2,7 @@
   "definitions": {
     "Tender": {
       "properties": {
-        "valueDetails": {
+        "reviewDetails": {
           "title": "Review details",
           "description": "Precise information on deadline(s) for review procedure.",
           "type": [

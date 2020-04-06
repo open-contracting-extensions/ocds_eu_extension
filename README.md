@@ -19,7 +19,7 @@ In the European Union, this extension's fields correspond to [eForms BT-10 and B
     }
   ],
   "tender": {
-    "valueDetails": "",
+    "reviewDetails": "",
     "valueCalculationMethod": ""
   },
   "awards": [
