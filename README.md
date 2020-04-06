@@ -19,8 +19,8 @@ In the European Union, this extension's fields correspond to [eForms BT-10 and B
     }
   ],
   "tender": {
-    "reviewDetails": "",
-    "valueCalculationMethod": ""
+    "reviewDetails": "NHS Wales Shared Services Partnership on behalf of Cardiff and Vale University Local Health Board will allow a minimum 10 calendar day standstill period between notifying the award decision and awarding the contract.",
+    "valueCalculationMethod": "Income from the sales of tickets over the duration of the contract minus the fees paid to the procuring entity."
   },
   "awards": [
     {
