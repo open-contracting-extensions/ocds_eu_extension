@@ -1,6 +1,8 @@
 # European Union
 
-Implements schemas and codes that are specific to the European law.
+Implements fields and codes that are specific to the European law.
+
+For complete guidance on meeting the disclosure requirements of European law, see [OCDS for European Union](https://standard.open-contracting.org/profiles/eu/master/en/).
 
 ## Legal context
 
