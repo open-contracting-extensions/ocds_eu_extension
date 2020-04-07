@@ -72,7 +72,8 @@
           "type": [
             "number",
             "null"
-          ]
+          ],
+          "minimum": 0
         }
       }
     }
