@@ -6,7 +6,7 @@ For complete guidance on meeting the disclosure requirements of European law, se
 
 ## Legal context
 
-In the European Union, this extension's fields correspond to [eForms BT-10 and BT-610](https://github.com/eForms/eForms). See [OCDS for the European Union](http://standard.open-contracting.org/profiles/eu/master/en/) for the correspondences to Tenders Electronic Daily (TED).
+In the European Union, this extension's fields correspond to [eForms BT-99, BT-163, BT-109, BT-505 and BT-508](https://github.com/eForms/eForms). See [OCDS for the European Union](http://standard.open-contracting.org/profiles/eu/master/en/) for the correspondences to Tenders Electronic Daily (TED).
 
 ## Example
 
