@@ -26,7 +26,7 @@
           "properties": {
             "url": {
               "title": "Website URL",
-              "description": "The Website of the organization.",
+              "description": "The website of the organization.",
               "type": [
                 "string",
                 "null"
@@ -48,7 +48,7 @@
       "properties": {
         "valueCalculationMethod": {
           "title": "Value calculation method",
-          "description": "Any details relevant to the value of the concession according to article 8(3) of directive 2014/23/EU on concession contracts.",
+          "description": "Any details relevant to the value of the concession according to article 8(3) of Directive 2014/23/EU on concession contracts.",
           "type": [
             "string",
             "null"
