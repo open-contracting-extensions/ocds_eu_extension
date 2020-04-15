@@ -6,7 +6,7 @@
     "en": "Implements fields and codes that are specific to European law."
   },
   "documentationUrl": {
-    "en": "https://github.com/open-contracting-extensions/ocds_eu_extension"
+    "en": "https://extensions.open-contracting.org/en/extensions/eu/"
   },
   "compatibility": [
     "1.1"
