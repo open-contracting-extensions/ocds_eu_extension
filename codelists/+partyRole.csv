@@ -1,6 +1,6 @@
 Code,Title,Description
 mediationBody,Mediation body,Body responsible for mediation procedures.
-centralPurchasingBody,Central purchasing body,"Contracting authority providing centralized purchasing activities and, possibly, ancillary purchasing activities."
+centralPurchasingBody,Central purchasing body,"Procuring entity providing centralized purchasing activities and, possibly, ancillary purchasing activities."
 processContactPoint,Process contact point,Contact point dedicated to this contracting process.
-reviewContactPoint,Review contact point,Service from which information about the review procedure may be obtained.
-selectedParticipant,Selected participant,Party that has already been selected to participate to the design contest.
+reviewContactPoint,Review contact point,Service from which information about the review procedure can be obtained.
+selectedParticipant,Selected participant,Party that has already been selected to participate in the design contest.
