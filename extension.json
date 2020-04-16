@@ -13,5 +13,8 @@
   ],
   "schemas": [
     "release-schema.json"
+  ],
+  "codelists": [
+    "+partyRole.csv"
   ]
 }
