@@ -8,7 +8,8 @@
           "type": [
             "string",
             "null"
-          ]
+          ],
+          "minLength": 1
         },
         "valueCalculationMethod": {
           "title": "Value calculation method",
@@ -16,7 +17,8 @@
           "type": [
             "string",
             "null"
-          ]
+          ],
+          "minLength": 1
         }
       }
     },
@@ -30,7 +32,8 @@
               "type": [
                 "string",
                 "null"
-              ]
+              ],
+              "minLength": 1
             },
             "buyerProfile": {
               "title": "Buyer profile URL",
@@ -38,7 +41,8 @@
               "type": [
                 "string",
                 "null"
-              ]
+              ],
+              "minLength": 1
             }
           }
         }
@@ -52,7 +56,8 @@
           "type": [
             "string",
             "null"
-          ]
+          ],
+          "minLength": 1
         }
       }
     },
@@ -64,7 +69,8 @@
           "type": [
             "string",
             "null"
-          ]
+          ],
+          "minLength": 1
         },
         "publicPassengerTransportServicesKilometers": {
           "title": "Kilometers of public passenger transport services",
