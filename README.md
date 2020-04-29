@@ -6,7 +6,7 @@ For complete guidance on meeting the disclosure requirements of European law, se
 
 ## Guidance
 
-If items have at most one delivery address, use the [https://extensions.open-contracting.org/en/extensions/location/ ](https://extensions.open-contracting.org/en/extensions/location/) extension instead ([see discussion](https://github.com/open-contracting/ocds-extensions/issues/115)).
+If items have at most one delivery address, use the [Location](https://extensions.open-contracting.org/en/extensions/location/) extension instead ([see discussion](https://github.com/open-contracting/ocds-extensions/issues/115)).
 
 ## Legal context
 
@@ -74,7 +74,7 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ### 2020-04-29
 
-* Add a`deliveryAddresses` array to the item object to specify the delivery addresses.
+* Add `deliveryAddresses` field
 
 ### 2020-04-24
 
