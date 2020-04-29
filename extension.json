@@ -15,6 +15,7 @@
     "release-schema.json"
   ],
   "codelists": [
-    "partyRole.csv"
+    "+partyRole.csv",
+    "+documentType.csv"
   ]
 }
