@@ -74,7 +74,7 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ### 2020-04-29
 
-* Add `deliveryAddresses` field
+* Add `Item.deliveryAddresses` field
 
 ### 2020-04-24
 
