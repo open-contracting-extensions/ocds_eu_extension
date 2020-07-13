@@ -47,6 +47,13 @@ In the European Union, this extension's fields correspond to [eForms BT-99 (Revi
           }
         ]
       }
+    ],
+    "milestones": [
+      {
+        "id": "1",
+        "type": "securityClearanceDeadline",
+        "dueDate": "2020-11-19T00:00:00Z"
+      }
     ]
   },
   "awards": [
@@ -71,6 +78,10 @@ In the European Union, this extension's fields correspond to [eForms BT-99 (Revi
 Report issues for this extension in the [ocds-extensions repository](https://github.com/open-contracting/ocds-extensions/issues), putting the extension's name in the issue's title.
 
 ## Changelog
+
+### 2020-07-13
+
+* Add `securityClearanceDeadline` milestone type
 
 ### 2020-04-29
 

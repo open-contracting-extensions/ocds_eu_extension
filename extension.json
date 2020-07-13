@@ -15,7 +15,8 @@
     "release-schema.json"
   ],
   "codelists": [
-    "+partyRole.csv"
+    "+partyRole.csv",
+    "+milestoneType.csv"
   ],
   "contactPoint": {
     "name": "Open Contracting Partnership",
