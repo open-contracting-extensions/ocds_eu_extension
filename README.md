@@ -81,7 +81,7 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ### 2020-07-13
 
-* Add `securityClearanceDeadline` milestone type
+* Add 'securityClearanceDeadline' code to `+milestoneType.csv` codelist
 
 ### 2020-04-29
 
@@ -89,6 +89,6 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ### 2020-04-24
 
-* Add `minProperties`, `minItems` and/or `minLength` properties.
+* Add `minProperties`, `minItems` and/or `minLength` properties
 
 This extension was originally discussed as part of the [OCDS for EU profile](https://github.com/open-contracting-extensions/european-union/issues), in [this issue](https://github.com/open-contracting/european-union-support/issues/19) and in [pull requests](https://github.com/open-contracting-extensions/ocds_eu_extension/pulls?q=is%3Apr+is%3Aclosed).
