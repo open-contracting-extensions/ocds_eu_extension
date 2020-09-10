@@ -16,7 +16,8 @@
   ],
   "codelists": [
     "+partyRole.csv",
-    "+milestoneType.csv"
+    "+milestoneType.csv",
+    "+documentType.csv"
   ],
   "contactPoint": {
     "name": "Open Contracting Partnership",
