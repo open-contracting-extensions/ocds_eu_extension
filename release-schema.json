@@ -19,6 +19,18 @@
             "null"
           ],
           "minLength": 1
+        },
+        "legislativeReferences": {
+          "title": "Legislative references",
+          "description": "Legislative references and associated contact points for information.",
+          "type": [
+            "array"
+          ],
+          "items": {
+            "$ref": "#/definitions/LegislativeReference"
+          },
+          "uniqueItems": true,
+          "wholeListMerge": true
         }
       }
     },
@@ -96,6 +108,35 @@
           },
           "uniqueItems": true,
           "wholeListMerge": true
+        }
+      }
+    },
+    "LegislativeReference": {
+      "title": "Legislative reference",
+      "description": "Legislative reference and associated contact point",
+      "type": "object",
+      "properties": {
+        "title": {
+          "title": "Title",
+          "description": "The title of the legislative reference",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "url": {
+          "title": "URL",
+          "description": "A link to the Web page of the legislative reference.",
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "uri"
+        },
+        "informationService": {
+          "title": "Information service",
+          "description": "The contact details of an administrative service that can provide information about the legislative reference.",
+          "$ref": "#/definitions/ContactPoint"
         }
       }
     }
