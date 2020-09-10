@@ -48,6 +48,17 @@ In the European Union, this extension's fields correspond to [eForms BT-99 (Revi
         ]
       }
     ],
+    "legislativeReferences": [
+      {
+        "title": "Direct taxation in the EU",
+        "url": "https://eur-lex.europa.eu/summary/chapter/2101.html",
+        "informationService": {
+          "name": "Farida Howard",
+          "email": "fhoward@manchester.edu.uk",
+          "telephone": "44 (0)1234 56789"
+        }
+      }
+    ],
     "milestones": [
       {
         "id": "1",
