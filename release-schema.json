@@ -107,7 +107,8 @@
             "$ref": "#/definitions/Address"
           },
           "uniqueItems": true,
-          "wholeListMerge": true
+          "wholeListMerge": true,
+          "minItems": 1
         }
       }
     },
