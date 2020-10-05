@@ -59,6 +59,15 @@ In the European Union, this extension's fields correspond to [eForms BT-99 (Revi
         }
       }
     ],
+    "lots": [
+      {
+        "id": "lot-1",
+        "minimumValue": {
+          "amount": "12000",
+          "currency": "EUR"
+        }
+      }
+    ],
     "milestones": [
       {
         "id": "1",
@@ -79,15 +88,6 @@ In the European Union, this extension's fields correspond to [eForms BT-99 (Revi
       "periodRationale": "The duration of the contract has been extended to anticipate the exceptional snowfall expected in January.",
       "publicPassengerTransportServicesKilometers": 765,
       "awardID": "award-1"
-    }
-  ],
-  "lots": [
-    {
-      "id": "lot-1",
-      "minimumValue": {
-        "amount": "12000",
-        "currency": "EUR"
-      }
     }
   ]
 }
