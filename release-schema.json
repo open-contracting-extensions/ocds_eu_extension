@@ -30,7 +30,8 @@
             "$ref": "#/definitions/LegislativeReference"
           },
           "uniqueItems": true,
-          "wholeListMerge": true
+          "wholeListMerge": true,
+          "minItems": 1
         }
       }
     },
@@ -123,7 +124,8 @@
           "type": [
             "string",
             "null"
-          ]
+          ],
+          "minLength": 1
         },
         "url": {
           "title": "URL",
@@ -138,6 +140,16 @@
           "title": "Information service",
           "description": "The contact details of an administrative service that can provide information about the legislative reference.",
           "$ref": "#/definitions/ContactPoint"
+        }
+      },
+      "minProperties": 1
+    },
+    "Lot": {
+      "properties": {
+        "minimumValue": {
+          "title": "Minimum value",
+          "description": "The minimum estimated value of the lot. A negative value indicates that the contracting process may involve payments from the supplier to the buyer (commonly used in concession contracts).",
+          "$ref": "#/definitions/Value"
         }
       }
     }

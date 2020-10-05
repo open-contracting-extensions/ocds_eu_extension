@@ -59,6 +59,15 @@ In the European Union, this extension's fields correspond to [eForms BT-99 (Revi
         }
       }
     ],
+    "lots": [
+      {
+        "id": "lot-1",
+        "minimumValue": {
+          "amount": 12000,
+          "currency": "EUR"
+        }
+      }
+    ],
     "milestones": [
       {
         "id": "1",
@@ -89,6 +98,10 @@ In the European Union, this extension's fields correspond to [eForms BT-99 (Revi
 Report issues for this extension in the [ocds-extensions repository](https://github.com/open-contracting/ocds-extensions/issues), putting the extension's name in the issue's title.
 
 ## Changelog
+
+### 2020-10-05
+
+* Add `Lot.minimumValue` field
 
 ### 2020-07-13
 
