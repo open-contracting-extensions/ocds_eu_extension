@@ -145,10 +145,7 @@
         "minimumValue": {
           "title": "Minimum value",
           "description": "The minimum estimated value of the procurement. A negative value indicates that the contracting process may involve payments from the supplier to the buyer (commonly used in concession contracts).",
-          "type": [
-            "number",
-            "null"
-          ]
+          "$ref": "#/definitions/Value"
         }
       }
     }
