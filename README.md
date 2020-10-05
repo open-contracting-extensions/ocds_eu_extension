@@ -63,7 +63,7 @@ In the European Union, this extension's fields correspond to [eForms BT-99 (Revi
       {
         "id": "lot-1",
         "minimumValue": {
-          "amount": "12000",
+          "amount": 12000,
           "currency": "EUR"
         }
       }
