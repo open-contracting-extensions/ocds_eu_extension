@@ -101,7 +101,7 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ### 2020-10-05
 
-* add `minimumValue` field to `Lot`.
+* Add `Lot.minimumValue` field
 
 ### 2020-07-13
 
