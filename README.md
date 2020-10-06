@@ -106,11 +106,11 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ### 2020-10-06
 
-* add `awardPeriod` field to the `Lot` object.
+* Add the `awardPeriod` field to the `Lot` object.
 
 ### 2020-10-05
 
-* add `minimumValue` field to the `Lot` object.
+* Add the `minimumValue` field to the `Lot` object.
 
 ### 2020-07-13
 
