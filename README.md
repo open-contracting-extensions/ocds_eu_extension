@@ -65,6 +65,11 @@ In the European Union, this extension's fields correspond to [eForms BT-99 (Revi
         "minimumValue": {
           "amount": 12000,
           "currency": "EUR"
+        },
+        "awardPeriod": {
+          "durationInDays": 30,
+          "startDate": "2020-11-06T00:00:00Z",
+          "endDate": "2020-12-06T00:00:00Z"
         }
       }
     ],
@@ -99,9 +104,13 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ## Changelog
 
+### 2020-10-06
+
+* Add the `awardPeriod` field to the `Lot` object.
+
 ### 2020-10-05
 
-* Add `Lot.minimumValue` field
+* Add the `minimumValue` field to the `Lot` object.
 
 ### 2020-07-13
 
