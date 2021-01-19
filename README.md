@@ -22,6 +22,13 @@ In the European Union, this extension's fields correspond to [eForms BT-99 (Revi
         "url": "https://www.manchester.ac.uk/",
         "buyerProfile": "https://in-tendhost.co.uk/universityofmanchester/aspx/Home"
       }
+    },
+    {
+      "name": "Royal Tax Office",
+      "id": "08797655",
+      "roles": [
+        "informationService"
+      ]
     }
   ],
   "tender": {
@@ -53,9 +60,8 @@ In the European Union, this extension's fields correspond to [eForms BT-99 (Revi
         "title": "Direct taxation in the EU",
         "url": "https://eur-lex.europa.eu/summary/chapter/2101.html",
         "informationService": {
-          "name": "Farida Howard",
-          "email": "fhoward@manchester.edu.uk",
-          "telephone": "44 (0)1234 56789"
+          "name": "Royal Tax Office",
+          "id": "08797655"
         }
       }
     ],
@@ -106,7 +112,7 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ### 2021-01-19
 
-* Set the object type of `.informationService` to `OrganizationReference`.
+* Set the object type of `informationService` to `OrganizationReference`.
 * Add 'informationService' code to `+partyRole.csv` codelist.
 
 ### 2020-10-06
