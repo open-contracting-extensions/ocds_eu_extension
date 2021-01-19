@@ -138,8 +138,8 @@
         },
         "informationService": {
           "title": "Information service",
-          "description": "The contact details of an administrative service that can provide information about the legislative reference.",
-          "$ref": "#/definitions/ContactPoint"
+          "description": "An organization that can provide information about the legislative reference.",
+          "$ref": "#/definitions/OrganizationReference"
         }
       },
       "minProperties": 1
