@@ -26,6 +26,11 @@ In the European Union, this extension's fields correspond to [eForms BT-99 (Revi
     {
       "name": "Royal Tax Office",
       "id": "08797655",
+      "contactPoint": {
+        "name": "Crown Commercial Service",
+        "email": "info@crowncommercial.gov.uk",
+        "url": "https://www.gov.uk/government/publications/procurement-policy-note-0314-promoting-tax-compliance"
+      },
       "roles": [
         "informationService"
       ]
