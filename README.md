@@ -22,6 +22,18 @@ In the European Union, this extension's fields correspond to [eForms BT-99 (Revi
         "url": "https://www.manchester.ac.uk/",
         "buyerProfile": "https://in-tendhost.co.uk/universityofmanchester/aspx/Home"
       }
+    },
+    {
+      "name": "Royal Tax Office",
+      "id": "08797655",
+      "contactPoint": {
+        "name": "Crown Commercial Service",
+        "email": "info@crowncommercial.gov.uk",
+        "url": "https://www.gov.uk/government/publications/procurement-policy-note-0314-promoting-tax-compliance"
+      },
+      "roles": [
+        "informationService"
+      ]
     }
   ],
   "tender": {
@@ -53,9 +65,8 @@ In the European Union, this extension's fields correspond to [eForms BT-99 (Revi
         "title": "Direct taxation in the EU",
         "url": "https://eur-lex.europa.eu/summary/chapter/2101.html",
         "informationService": {
-          "name": "Farida Howard",
-          "email": "fhoward@manchester.edu.uk",
-          "telephone": "44 (0)1234 56789"
+          "name": "Royal Tax Office",
+          "id": "08797655"
         }
       }
     ],
@@ -103,6 +114,11 @@ In the European Union, this extension's fields correspond to [eForms BT-99 (Revi
 Report issues for this extension in the [ocds-extensions repository](https://github.com/open-contracting/ocds-extensions/issues), putting the extension's name in the issue's title.
 
 ## Changelog
+
+### 2021-01-19
+
+* Set the object type of `informationService` to `OrganizationReference`.
+* Add 'informationService' code to `+partyRole.csv` codelist.
 
 ### 2020-10-06
 
