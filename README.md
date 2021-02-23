@@ -109,6 +109,13 @@ In the European Union, this extension's fields correspond to [eForms BT-99 (Revi
 }
 ```
 
+# Versions
+
+Use the following extension URL for different versions of OCDS:
+
+* 1.2: https://raw.githubusercontent.com/open-contracting-extensions/ocds_eu_extension/1.2/extension.json
+* 1.1: https://raw.githubusercontent.com/open-contracting-extensions/ocds_eu_extension/1.1/extension.json
+
 ## Issues
 
 Report issues for this extension in the [ocds-extensions repository](https://github.com/open-contracting/ocds-extensions/issues), putting the extension's name in the issue's title.
