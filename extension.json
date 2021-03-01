@@ -14,11 +14,6 @@
   "schemas": [
     "release-schema.json"
   ],
-  "codelists": [
-    "+partyRole.csv",
-    "+milestoneType.csv",
-    "+documentType.csv"
-  ],
   "contactPoint": {
     "name": "Open Contracting Partnership",
     "email": "data@open-contracting.org"
