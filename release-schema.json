@@ -146,11 +146,6 @@
     },
     "Lot": {
       "properties": {
-        "minimumValue": {
-          "title": "Minimum value",
-          "description": "The minimum estimated value of the lot. A negative value indicates that the contracting process may involve payments from the supplier to the buyer (commonly used in concession contracts).",
-          "$ref": "#/definitions/Value"
-        },
         "awardPeriod": {
           "title": "Award period",
           "description": "The period for decision making regarding the contract award for the lot. The end date should be the date on which an award decision is due to be finalized. The start date may be used to indicate the start of an evaluation period.",
