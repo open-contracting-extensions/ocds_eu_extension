@@ -73,10 +73,6 @@ In the European Union, this extension's fields correspond to [eForms BT-99 (Revi
     "lots": [
       {
         "id": "lot-1",
-        "minimumValue": {
-          "amount": 12000,
-          "currency": "EUR"
-        },
         "awardPeriod": {
           "durationInDays": 30,
           "startDate": "2020-11-06T00:00:00Z",
@@ -121,6 +117,10 @@ Use the following extension URL for different versions of OCDS:
 Report issues for this extension in the [ocds-extensions repository](https://github.com/open-contracting/ocds-extensions/issues), putting the extension's name in the issue's title.
 
 ## Changelog
+
+### 2022-05-27
+
+* Move `Lot.minimumValue` to the Lots extension as `Lot.minValue`.
 
 ### 2021-02-23
 
