@@ -10,7 +10,7 @@ If items have at most one delivery address, use the [Location](https://extension
 
 ## Legal context
 
-In the European Union, this extension's fields correspond to [eForms BT-99 (Review Deadline Description), BT-163 (Concession Value Description), BT-109 (Framework Duration Justification), BT-505 (Organisation Internet Address), BT-508 (Buyer Profile URL) and BG-708 (Place of Performance)](https://github.com/eForms/eForms). See [OCDS for the European Union](http://standard.open-contracting.org/profiles/eu/master/en/) for the correspondences to Tenders Electronic Daily (TED).
+In the European Union, this extension's fields correspond to [eForms BT-99 (Review Deadline Description), BT-163 (Concession Value Description), BT-109 (Framework Duration Justification), BT-505 (Organisation Internet Address), BT-508 (Buyer Profile URL) and BG-708 (Place of Performance)](https://docs.ted.europa.eu/eforms/latest/reference/business-terms/). See [OCDS for the European Union](http://standard.open-contracting.org/profiles/eu/master/en/) for the correspondences to Tenders Electronic Daily (TED).
 
 ## Example
 
