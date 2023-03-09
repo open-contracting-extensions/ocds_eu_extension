@@ -122,11 +122,11 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ### 2020-10-06
 
-* Add the `awardPeriod` field to the `Lot` object.
+* Add `Lot.awardPeriod` field.
 
 ### 2020-10-05
 
-* Add the `minimumValue` field to the `Lot` object.
+* Add `Lot.minimumValue` field.
 
 ### 2020-07-13
 
@@ -134,7 +134,7 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ### 2020-04-29
 
-* Add the `deliveryAddresses` field to the `Item` object.
+* Add `Item.deliveryAddresses` field.
 
 ### 2020-04-24
 
