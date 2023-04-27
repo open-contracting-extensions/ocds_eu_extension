@@ -23,9 +23,7 @@
         "legislativeReferences": {
           "title": "Legislative references",
           "description": "Legislative references and associated contact points for information.",
-          "type": [
-            "array"
-          ],
+          "type": "array",
           "items": {
             "$ref": "#/definitions/LegislativeReference"
           },
@@ -101,9 +99,7 @@
         "deliveryAddresses": {
           "title": "Delivery addresses",
           "description": "The addresse(s) to which the supplier delivers the item.",
-          "type": [
-            "array"
-          ],
+          "type": "array",
           "items": {
             "$ref": "#/definitions/Address"
           },
