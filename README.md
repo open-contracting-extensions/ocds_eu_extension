@@ -124,7 +124,7 @@ For correspondences to eForms fields, see [OCDS for eForms](https://standard.ope
         "additionalClassifications": [
           {
             "id": "oth-serv-contr",
-            "scheme": "CVDContractType",
+            "scheme": "eu-cvd-contract-type",
             "description": "other service contract"
           }
         ]
@@ -153,7 +153,7 @@ For correspondences to eForms fields, see [OCDS for eForms](https://standard.ope
           "id": "1",
           "additionalClassifications": [
             {
-              "scheme": "vehicleCategory",
+              "scheme": "eu-vehicle-category",
               "id": "n2-n3",
               "description": "Truck (N2-N3)"
             }
