@@ -11,7 +11,7 @@ If items have at most one delivery address, use the [Location](https://extension
 ## Legal context
 
 In the European Union, this extension's fields and codes correspond to the following eForms [business terms](https://docs.ted.europa.eu/eforms/latest/reference/business-terms/) and business groups:
-* eForms BT-99 (Review Deadline Description)
+* BT-99 (Review Deadline Description)
 * BT-163 (Concession Value Description)
 * BT-109 (Framework Duration Justification)
 * BT-505 (Organisation Internet Address)
@@ -125,7 +125,7 @@ For correspondences to eForms fields, see [OCDS for eForms](https://standard.ope
           {
             "id": "oth-serv-contr",
             "scheme": "eu-cvd-contract-type",
-            "description": "other service contract"
+            "description": "Other service contract"
           }
         ]
       }
