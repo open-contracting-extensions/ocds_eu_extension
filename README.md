@@ -2,7 +2,7 @@
 
 Implements fields and codes that are specific to European law.
 
-For complete guidance on meeting the disclosure requirements of European law, see [OCDS for European Union](https://standard.open-contracting.org/profiles/eu/master/en/).
+For complete guidance on meeting the disclosure requirements of European law, see [OCDS for eForms](https://standard.open-contracting.org/profiles/eforms/) and [OCDS for European Union](https://standard.open-contracting.org/profiles/eu/master/en/).
 
 ## Guidance
 
@@ -11,6 +11,7 @@ If items have at most one delivery address, use the [Location](https://extension
 ## Legal context
 
 In the European Union, this extension's fields and codes correspond to the following eForms [business terms](https://docs.ted.europa.eu/eforms/latest/reference/business-terms/) and business groups:
+
 * BT-99 (Review Deadline Description)
 * BT-163 (Concession Value Description)
 * BT-109 (Framework Duration Justification)
