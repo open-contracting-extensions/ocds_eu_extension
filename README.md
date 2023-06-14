@@ -8,31 +8,6 @@ For complete guidance on meeting the disclosure requirements of European law, se
 
 If items have at most one delivery address, use the [Location](https://extensions.open-contracting.org/en/extensions/location/) extension instead ([see discussion](https://github.com/open-contracting/ocds-extensions/issues/115)).
 
-## Legal context
-
-In the European Union, this extension's fields and codes correspond to the following eForms [business terms](https://docs.ted.europa.eu/eforms/latest/reference/business-terms/) and business groups:
-
-* BT-99 (Review Deadline Description)
-* BT-163 (Concession Value Description)
-* BT-109 (Framework Duration Justification)
-* BT-505 (Organisation Internet Address)
-* BT-508 (Buyer Profile URL)
-* BG-708 (Place of Performance)
-* OPT-030 (Provided Service Type)
-* OPP-050 (Buyers Group Lead Indicator)
-* OPP-051 (Awarding CPB Buyer Indicator)
-* OPP-052 (Acquiring CPB Buyer Indicator)
-* OPT-170 (Tendering Party Leader)
-* BT-723 (Vehicle Category)
-* BT-735 (CVD Contract Type)
-* OPT-111 (Fiscal Legislation Document ID)
-* OPT-112 (Environmental Legislation Document ID)
-* OPT-113 (Employment Legislation Document ID)
-* OPT-301 (Organization Technical Identifier Reference)
-* BT-1252 (Direct Award Justification Previous Procedure Identifier)
-
-For correspondences to eForms fields, see [OCDS for eForms](https://standard.open-contracting.org/profiles/eforms) and for correspondences to Tenders Electronic Daily (TED), see [OCDS for the European Union](http://standard.open-contracting.org/profiles/eu/master/en/).
-
 ## Example
 
 ```json
