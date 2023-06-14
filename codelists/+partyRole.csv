@@ -8,7 +8,6 @@ informationService,Information service,An organization that can provide informat
 procurementServiceProvider,Procurement service provider,An organization that provides ancillary procurement services to buyers.
 eSender,TED eSender,An organization that provides data transfer services to buyers.
 leadBuyer,Lead buyer,The lead buyer in a group of buyers.
-awardingCentralPurchasingBody,Awarding central purchasing body,"A central purchasing body awarding public contracts or concluding framework agreements for goods, services or works intended for other buyers."
 acquiringCentralPurchasingBody,Acquiring central purchasing body,"A central purchasing body acquiring goods, services or works intended for other buyers."
 leadTenderer,Lead tenderer,The lead tenderer in the case of a consortium or equivalent.
 evaluationBody,Evaluation body,The organization responsible for evaluating bids or requests to participate.
