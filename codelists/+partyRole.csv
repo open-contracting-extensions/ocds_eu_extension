@@ -5,8 +5,8 @@ processContactPoint,Process contact point,A contact point dedicated to this cont
 reviewContactPoint,Review contact point,The service from which information about the review procedure can be obtained.
 selectedParticipant,Selected participant,A party that has already been selected to participate in the design contest.
 informationService,Information service,An organization that can provide information regarding specific aspects of the contracting process.
-procurementServiceProvider,Procurement service provider,An organization that provides procurement services to contracting authorities.
-eSender,TED eSender,An organization that provides data transfer services to contracting authorities.
+procurementServiceProvider,Procurement service provider,An organization that provides ancillary procurement services to buyers.
+eSender,TED eSender,An organization that provides data transfer services to buyers.
 leadBuyer,Lead buyer,The lead buyer in a group of buyers.
 awardingCentralPurchasingBody,Awarding central purchasing body,"A central purchasing body awarding public contracts or concluding framework agreements for goods, services or works intended for other buyers."
 acquiringCentralPurchasingBody,Acquiring central purchasing body,"A central purchasing body acquiring goods, services or works intended for other buyers."
