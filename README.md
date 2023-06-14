@@ -177,7 +177,6 @@ Report issues for this extension in the [ocds-extensions repository](https://git
     * 'procurementServiceProvider'
     * 'eSender'
     * 'leadBuyer'
-    * 'awardingCentralPurchasingBody'
     * 'acquiringCentralPurchasingBody'
     * 'leadTenderer'
     * 'evaluationBody'
