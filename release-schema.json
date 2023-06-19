@@ -109,6 +109,19 @@
         }
       }
     },
+    "Period": {
+      "properties": {
+        "description": {
+          "title": "Description",
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "The description of the period.",
+          "minLength": 1
+        }
+      }
+    },
     "LegislativeReference": {
       "title": "Legislative reference",
       "description": "Legislative reference and associated contact point",
