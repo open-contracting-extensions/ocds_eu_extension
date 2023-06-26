@@ -4,10 +4,6 @@ Implements fields and codes that are specific to European law.
 
 For complete guidance on meeting the disclosure requirements of European law, see [OCDS for European Union](https://standard.open-contracting.org/profiles/eu/master/en/).
 
-## Guidance
-
-If items have at most one delivery address, use the [Location](https://extensions.open-contracting.org/en/extensions/location/) extension instead ([see discussion](https://github.com/open-contracting/ocds-extensions/issues/115)).
-
 ## Legal context
 
 In the European Union, this extension's fields correspond to [eForms BT-99 (Review Deadline Description), BT-163 (Concession Value Description), BT-109 (Framework Duration Justification), BT-505 (Organisation Internet Address), BT-508 (Buyer Profile URL) and BG-708 (Place of Performance)](https://docs.ted.europa.eu/eforms/latest/reference/business-terms/). For correspondences to Tenders Electronic Daily (TED), see [OCDS for the European Union](http://standard.open-contracting.org/profiles/eu/latest/en/).
