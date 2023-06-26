@@ -3,7 +3,7 @@ mediationBody,Mediation body,The body responsible for mediation procedures.
 centralPurchasingBody,Central purchasing body,"The procuring entity providing centralized purchasing activities and, possibly, ancillary purchasing activities."
 processContactPoint,Process contact point,A contact point dedicated to this contracting process.
 reviewContactPoint,Review contact point,The service from which information about the review procedure can be obtained.
-selectedParticipant,Selected participant,A party that has already been selected to participate in the design contest.
+selectedParticipant,Selected participant,An organization that has already been selected to participate in the design contest.
 informationService,Information service,An organization that can provide information regarding specific aspects of the contracting process.
 procurementServiceProvider,Procurement service provider,An organization that provides ancillary procurement services to buyers.
 eSender,TED eSender,An organization that provides data transfer services to buyers.
