@@ -113,11 +113,11 @@
       "properties": {
         "description": {
           "title": "Description",
+          "description": "The description of the period.",
           "type": [
             "string",
             "null"
           ],
-          "description": "The description of the period.",
           "minLength": 1
         }
       }
