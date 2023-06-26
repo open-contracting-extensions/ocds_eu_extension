@@ -2,11 +2,7 @@
 
 Implements fields and codes that are specific to European law.
 
-For complete guidance on meeting the disclosure requirements of European law, see [OCDS for eForms](https://standard.open-contracting.org/profiles/eforms/) and [OCDS for European Union](https://standard.open-contracting.org/profiles/eu/master/en/).
-
-## Guidance
-
-If items have at most one delivery address, use the [Location](https://extensions.open-contracting.org/en/extensions/location/) extension instead ([see discussion](https://github.com/open-contracting/ocds-extensions/issues/115)).
+For complete guidance on meeting the disclosure requirements of European law, see [OCDS for eForms](https://standard.open-contracting.org/profiles/eforms/latest/en/) and [OCDS for European Union](https://standard.open-contracting.org/profiles/eu/latest/en/).
 
 ## Example
 

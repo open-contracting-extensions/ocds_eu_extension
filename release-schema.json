@@ -27,8 +27,8 @@
           "items": {
             "$ref": "#/definitions/LegislativeReference"
           },
-          "uniqueItems": true,
           "wholeListMerge": true,
+          "uniqueItems": true,
           "minItems": 1
         }
       }
@@ -103,8 +103,8 @@
           "items": {
             "$ref": "#/definitions/Address"
           },
-          "uniqueItems": true,
           "wholeListMerge": true,
+          "uniqueItems": true,
           "minItems": 1
         }
       }
