@@ -2,7 +2,7 @@
 
 Implements fields and codes that are specific to European law.
 
-For complete guidance on meeting the disclosure requirements of European law, see [OCDS for European Union](https://standard.open-contracting.org/profiles/eu/master/en/).
+For complete guidance on meeting the disclosure requirements of European law, see [OCDS for European Union](https://standard.open-contracting.org/profiles/eu/latest/en/).
 
 ## Legal context
 
