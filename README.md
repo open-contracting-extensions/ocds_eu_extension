@@ -2,7 +2,7 @@
 
 Implements fields and codes that are specific to European law.
 
-For complete guidance on meeting the disclosure requirements of European law, see [OCDS for eForms](https://standard.open-contracting.org/profiles/eforms/latest/en/) and [OCDS for European Union](https://standard.open-contracting.org/profiles/eu/latest/en/).
+For complete guidance on meeting the disclosure requirements of European law, see [OCDS for eForms](https://standard.open-contracting.org/profiles/eforms/latest/en/) for the 2019 regulation, or [OCDS for European Union](https://standard.open-contracting.org/profiles/eu/latest/en/) for the 2015 regulation.
 
 ## Example
 
