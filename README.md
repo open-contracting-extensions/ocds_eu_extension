@@ -179,6 +179,8 @@ Report issues for this extension in the [ocds-extensions repository](https://git
     * 'submissionReceiptBody'
   * relatedProcessScheme.csv:
     * 'eu-oj'
+* Move 'informationService' from partyRole.csv to the document publisher extension
+
 
 ### 2022-05-27
 
