@@ -2,11 +2,7 @@
 
 Implements fields and codes that are specific to European law.
 
-For complete guidance on meeting the disclosure requirements of European law, see [OCDS for European Union](https://standard.open-contracting.org/profiles/eu/latest/en/).
-
-## Legal context
-
-In the European Union, this extension's fields correspond to [eForms BT-99 (Review Deadline Description), BT-163 (Concession Value Description), BT-109 (Framework Duration Justification), BT-505 (Organisation Internet Address), BT-508 (Buyer Profile URL), BT-538 (Duration Other) and BG-708 (Place of Performance)](https://docs.ted.europa.eu/eforms/latest/reference/business-terms/). For correspondences to eForms fields, see [OCDS for eForms](http://standard.open-contracting.org/profiles/eforms/latest/en/). For correspondences to Tenders Electronic Daily (TED), see [OCDS for the European Union](http://standard.open-contracting.org/profiles/eu/latest/en/).
+For complete guidance on meeting the disclosure requirements of European law, see [OCDS for eForms](https://standard.open-contracting.org/profiles/eforms/latest/en/) for the 2019 regulation, or [OCDS for European Union](https://standard.open-contracting.org/profiles/eu/latest/en/) for the 2015 regulation.
 
 ## Example
 
@@ -17,7 +13,13 @@ In the European Union, this extension's fields correspond to [eForms BT-99 (Revi
       "details": {
         "url": "https://www.manchester.ac.uk/",
         "buyerProfile": "https://in-tendhost.co.uk/universityofmanchester/aspx/Home"
-      }
+      },
+      "roles": [
+        "leadBuyer",
+        "awardingCentralPurchasingBody",
+        "evaluationBody",
+        "submissionReceiptBody"
+      ]
     },
     {
       "name": "Royal Tax Office",
@@ -29,6 +31,22 @@ In the European Union, this extension's fields correspond to [eForms BT-99 (Revi
       },
       "roles": [
         "informationService"
+      ]
+    },
+    {
+      "roles": [
+        "eSender"
+      ]
+    },
+    {
+      "roles": [
+        "procurementServiceProvider"
+      ]
+    },
+    {
+      "roles": [
+        "leadTenderer",
+        "tenderer"
       ]
     }
   ],
@@ -79,7 +97,14 @@ In the European Union, this extension's fields correspond to [eForms BT-99 (Revi
         },
         "contractPeriod": {
           "description": "unknown"
-        }
+        },
+        "additionalClassifications": [
+          {
+            "id": "oth-serv-contr",
+            "scheme": "eu-cvd-contract-type",
+            "description": "Other service contract"
+          }
+        ]
       }
     ],
     "milestones": [
@@ -88,12 +113,30 @@ In the European Union, this extension's fields correspond to [eForms BT-99 (Revi
         "type": "securityClearanceDeadline",
         "dueDate": "2020-11-19T00:00:00Z"
       }
+    ],
+    "documents": [
+      {
+        "id": "Fiscal1",
+        "documentType": "legislation"
+      }
     ]
   },
   "awards": [
     {
       "id": "award-1",
-      "valueCalculationMethod": "The awarded value takes into account the growing revenue expected from fees and the value of the equipment provided by the contracting authority."
+      "valueCalculationMethod": "The awarded value takes into account the growing revenue expected from fees and the value of the equipment provided by the contracting authority.",
+      "items": [
+        {
+          "id": "1",
+          "additionalClassifications": [
+            {
+              "scheme": "eu-vehicle-category",
+              "id": "n2-n3",
+              "description": "Truck (N2-N3)"
+            }
+          ]
+        }
+      ]
     }
   ],
   "contracts": [
@@ -102,6 +145,16 @@ In the European Union, this extension's fields correspond to [eForms BT-99 (Revi
       "periodRationale": "The duration of the contract has been extended to anticipate the exceptional snowfall expected in January.",
       "publicPassengerTransportServicesKilometers": 765,
       "awardID": "award-1"
+    }
+  ],
+  "relatedProcesses": [
+    {
+      "id": "1",
+      "identifier": "123e4567-e89b-12d3-a456-426614174000",
+      "scheme": "eu-oj",
+      "relationship": [
+        "prior"
+      ]
     }
   ]
 }
@@ -113,9 +166,25 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ## Changelog
 
-### 2023-06-26
+### 2023-06-30
 
 * Add `Period.description` field.
+* Add codes:
+  * classificationScheme.csv:
+    * 'eu-vehicle-category'
+    * 'eu-cvd-contract-type'
+  * documentType.csv:
+    * 'legislation'
+  * partyRole.csv:
+    * 'procurementServiceProvider'
+    * 'eSender'
+    * 'leadBuyer'
+    * 'leadTenderer'
+    * 'evaluationBody'
+    * 'submissionReceiptBody'
+  * relatedProcessScheme.csv:
+    * 'eu-oj'
+* Move 'informationService' from the `+partyRole.csv` codelist to the Document publisher extension.
 
 ### 2022-05-27
 
