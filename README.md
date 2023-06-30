@@ -6,7 +6,7 @@ For complete guidance on meeting the disclosure requirements of European law, se
 
 ## Legal context
 
-In the European Union, this extension's fields correspond to [eForms BT-99 (Review Deadline Description), BT-163 (Concession Value Description), BT-109 (Framework Duration Justification), BT-505 (Organisation Internet Address), BT-508 (Buyer Profile URL) and BG-708 (Place of Performance)](https://docs.ted.europa.eu/eforms/latest/reference/business-terms/). For correspondences to Tenders Electronic Daily (TED), see [OCDS for the European Union](http://standard.open-contracting.org/profiles/eu/latest/en/).
+In the European Union, this extension's fields correspond to [eForms BT-99 (Review Deadline Description), BT-163 (Concession Value Description), BT-109 (Framework Duration Justification), BT-505 (Organisation Internet Address), BT-508 (Buyer Profile URL), BT-538 (Duration Other) and BG-708 (Place of Performance)](https://docs.ted.europa.eu/eforms/latest/reference/business-terms/). For correspondences to eForms fields, see [OCDS for eForms](http://standard.open-contracting.org/profiles/eforms/latest/en/). For correspondences to Tenders Electronic Daily (TED), see [OCDS for the European Union](http://standard.open-contracting.org/profiles/eu/latest/en/).
 
 ## Example
 
@@ -33,6 +33,9 @@ In the European Union, this extension's fields correspond to [eForms BT-99 (Revi
     }
   ],
   "tender": {
+    "contractPeriod": {
+      "description": "unknown"
+    },
     "reviewDetails": "NHS Wales Shared Services Partnership on behalf of Cardiff and Vale University Local Health Board will allow a minimum 10 calendar day standstill period between notifying the award decision and awarding the contract.",
     "valueCalculationMethod": "Income from the sales of tickets over the duration of the contract minus the fees paid to the procuring entity.",
     "items": [
@@ -73,6 +76,9 @@ In the European Union, this extension's fields correspond to [eForms BT-99 (Revi
           "durationInDays": 30,
           "startDate": "2020-11-06T00:00:00Z",
           "endDate": "2020-12-06T00:00:00Z"
+        },
+        "contractPeriod": {
+          "description": "unknown"
         }
       }
     ],
@@ -106,6 +112,10 @@ In the European Union, this extension's fields correspond to [eForms BT-99 (Revi
 Report issues for this extension in the [ocds-extensions repository](https://github.com/open-contracting/ocds-extensions/issues), putting the extension's name in the issue's title.
 
 ## Changelog
+
+### 2023-06-26
+
+* Add `Period.description` field.
 
 ### 2022-05-27
 
