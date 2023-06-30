@@ -51,6 +51,9 @@ For complete guidance on meeting the disclosure requirements of European law, se
     }
   ],
   "tender": {
+    "contractPeriod": {
+      "description": "unknown"
+    },
     "reviewDetails": "NHS Wales Shared Services Partnership on behalf of Cardiff and Vale University Local Health Board will allow a minimum 10 calendar day standstill period between notifying the award decision and awarding the contract.",
     "valueCalculationMethod": "Income from the sales of tickets over the duration of the contract minus the fees paid to the procuring entity.",
     "items": [
@@ -91,6 +94,9 @@ For complete guidance on meeting the disclosure requirements of European law, se
           "durationInDays": 30,
           "startDate": "2020-11-06T00:00:00Z",
           "endDate": "2020-12-06T00:00:00Z"
+        },
+        "contractPeriod": {
+          "description": "unknown"
         },
         "additionalClassifications": [
           {
@@ -160,8 +166,9 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ## Changelog
 
-### 2023-04-19
+### 2023-06-30
 
+* Add `Period.description` field.
 * Add codes:
   * classificationScheme.csv:
     * 'eu-vehicle-category'
@@ -177,8 +184,7 @@ Report issues for this extension in the [ocds-extensions repository](https://git
     * 'submissionReceiptBody'
   * relatedProcessScheme.csv:
     * 'eu-oj'
-* Move 'informationService' from partyRole.csv to the document publisher extension
-
+* Move 'informationService' from the `+partyRole.csv` codelist to the Document publisher extension.
 
 ### 2022-05-27
 
