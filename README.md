@@ -17,7 +17,6 @@ For complete guidance on meeting the disclosure requirements of European law, se
       "roles": [
         "leadBuyer",
         "awardingCentralPurchasingBody",
-        "acquiringCentralPurchasingBody",
         "evaluationBody",
         "submissionReceiptBody"
       ]
@@ -173,7 +172,6 @@ Report issues for this extension in the [ocds-extensions repository](https://git
     * 'procurementServiceProvider'
     * 'eSender'
     * 'leadBuyer'
-    * 'acquiringCentralPurchasingBody'
     * 'leadTenderer'
     * 'evaluationBody'
     * 'submissionReceiptBody'
