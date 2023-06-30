@@ -117,9 +117,9 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ## Changelog
 
-### Unreleased
+### 2023-06-26
 
-* Add `Period.description`.
+* Add `Period.description` field.
 
 ### 2022-05-27
 
