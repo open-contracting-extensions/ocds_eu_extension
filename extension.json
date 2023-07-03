@@ -15,10 +15,10 @@
     "release-schema.json"
   ],
   "codelists": [
-    "+partyRole.csv",
-    "+milestoneType.csv",
-    "+classificationScheme.csv",
     "+documentType.csv",
+    "+itemClassificationScheme.csv",
+    "+milestoneType.csv",
+    "+partyRole.csv",
     "+relatedProcessScheme.csv"
   ],
   "contactPoint": {
