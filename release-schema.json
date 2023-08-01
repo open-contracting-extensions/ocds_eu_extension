@@ -56,6 +56,15 @@
               "minLength": 1
             }
           }
+        },
+        "eDeliveryGateway": {
+          "title": "eDelivery gateway",
+          "description": "The organization's URL for the exchange of data and documents.",
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "uri"
         }
       }
     },
@@ -159,6 +168,32 @@
           "title": "Award period",
           "description": "The period for decision making regarding the contract award for the lot. The end date should be the date on which an award decision is due to be finalized. The start date may be used to indicate the start of an evaluation period.",
           "$ref": "#/definitions/Period"
+        },
+        "hasAccessibilityCriteria": {
+          "title": "Has accessibility criteria",
+          "description": "Whether the technical specifications for the lot include criteria for the accessibility of disabled persons.",
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "noAccessibilityCriteriaRationale": {
+          "title": "No accessibility criteria rationale",
+          "description": "The rationale for not including accessibility criteria despite the object of the lot being intended for use by natural persons.",
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "reviewDetails": {
+          "title": "Review details",
+          "description": "Details of the review procedures for the lot, such as the the deadline for review requests.",
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
         }
       }
     }
