@@ -59,7 +59,7 @@
         },
         "eDeliveryGateway": {
           "title": "eDelivery gateway",
-          "description": "The organization's URL for the exchange of data and documents.",
+          "description": "The organization's URL for the exchange of data and documents with eDelivery.",
           "type": [
             "string",
             "null"
@@ -171,7 +171,7 @@
         },
         "hasAccessibilityCriteria": {
           "title": "Has accessibility criteria",
-          "description": "Whether the technical specifications for the lot include criteria for the accessibility of disabled persons.",
+          "description": "Whether the technical specifications for the lot include accessibility criteria for people with disabilities.",
           "type": [
             "boolean",
             "null"
@@ -179,7 +179,7 @@
         },
         "noAccessibilityCriteriaRationale": {
           "title": "No accessibility criteria rationale",
-          "description": "The rationale for not including accessibility criteria despite the object of the lot being intended for use by natural persons.",
+          "description": "The rationale for not including accessibility criteria when the object of the lot is intended for use by natural persons.",
           "type": [
             "string",
             "null"
