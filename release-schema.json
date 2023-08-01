@@ -188,7 +188,7 @@
         },
         "reviewDetails": {
           "title": "Review details",
-          "description": "Details of the review procedures for the lot, such as the the deadline for review requests.",
+          "description": "Precise information concerning the time limits for the review procedures for the lot or contact information from which it can be obtained.",
           "type": [
             "string",
             "null"
