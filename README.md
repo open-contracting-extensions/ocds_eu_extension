@@ -166,6 +166,14 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ## Changelog
 
+### 2023-08-01
+
+* Add fields:
+  * `Organization.eDeliveryGateway`
+  * `Lot.hasAccessibilityCriteria`
+  * `Lot.noAccessibilityCriteriaRationale`
+  * `Lot.reviewDetails`
+  
 ### 2023-06-30
 
 * Add `Period.description` field.
