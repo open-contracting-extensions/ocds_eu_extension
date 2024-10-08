@@ -119,7 +119,17 @@ For complete guidance on meeting the disclosure requirements of European law, se
         "id": "Fiscal1",
         "documentType": "legislation"
       }
-    ]
+    ],
+    "selectionCriteria": {
+      "sources": [
+        "epo-notice"
+      ]
+    },
+    "exclusionGrounds": {
+      "sources": [
+        "epo-notice"
+      ]
+    }
   },
   "awards": [
     {
@@ -165,6 +175,13 @@ For complete guidance on meeting the disclosure requirements of European law, se
 Report issues for this extension in the [ocds-extensions repository](https://github.com/open-contracting/ocds-extensions/issues), putting the extension's name in the issue's title.
 
 ## Changelog
+
+### 2024-10-08
+
+* Add fields:
+  * `SelectionCriteria.sources`
+  * `ExclusionGrounds.sources`
+* Add `sources.csv` codelist
 
 ### 2023-08-01
 
