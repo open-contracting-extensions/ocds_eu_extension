@@ -204,9 +204,15 @@
           "description": "The sources in which the exclusion grounds are defined.",
           "type": "array",
           "items": {
-            "$ref": "#/definitions/Source"
+            "type": "string",
+            "enum": [
+              "epo-notice",
+              "epo-procurement-document",
+              "epo-sub-espd"
+            ]
           },
-          "wholeListMerge": true,
+          "codelist": "sources.csv",
+          "openCodelist": false,
           "uniqueItems": true,
           "minItems": 1
         }
@@ -219,25 +225,19 @@
           "description": "The sources in which the selection criteria are defined.",
           "type": "array",
           "items": {
-            "$ref": "#/definitions/Source"
+            "type": "string",
+            "enum": [
+              "epo-notice",
+              "epo-procurement-document",
+              "epo-sub-espd"
+            ]
           },
-          "wholeListMerge": true,
+          "codelist": "sources.csv",
+          "openCodelist": false,
           "uniqueItems": true,
           "minItems": 1
         }
       }
-    },
-    "Source": {
-      "title": "Source",
-      "description": "Where the criteria are defined.",
-      "type": "string",
-      "codelist": "sources.csv",
-      "openCodelist": false,
-      "enum": [
-        "epo-notice",
-        "epo-procurement-document",
-        "epo-sub-espd"
-      ]
     }
   }
 }
