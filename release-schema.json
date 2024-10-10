@@ -202,7 +202,10 @@
         "sources": {
           "title": "Sources",
           "description": "The sources in which the exclusion grounds are defined.",
-          "type": "array",
+          "type": [
+            "array",
+            "null"
+          ],
           "items": {
             "type": "string",
             "enum": [
@@ -223,7 +226,10 @@
         "sources": {
           "title": "Sources",
           "description": "The sources in which the selection criteria are defined.",
-          "type": "array",
+          "type": [
+            "array",
+            "null"
+          ],
           "items": {
             "type": "string",
             "enum": [
