@@ -201,7 +201,7 @@
       "properties": {
         "sources": {
           "title": "Sources",
-          "description": "The sources where the exclusion grounds are defined.",
+          "description": "The sources in which the exclusion grounds are defined.",
           "type": "array",
           "items": {
             "$ref": "#/definitions/Source"
@@ -216,7 +216,7 @@
       "properties": {
         "sources": {
           "title": "Sources",
-          "description": "The sources where the selection criteria are defined.",
+          "description": "The sources in which the selection criteria are defined.",
           "type": "array",
           "items": {
             "$ref": "#/definitions/Source"
