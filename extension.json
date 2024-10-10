@@ -27,7 +27,10 @@
     "email": "data@open-contracting.org"
   },
   "testDependencies": [
+    "https://raw.githubusercontent.com/open-contracting-extensions/ocds_submissionTerms_extension/master/extension.json",
     "https://raw.githubusercontent.com/open-contracting-extensions/ocds_lots_extension/master/extension.json",
-    "https://raw.githubusercontent.com/open-contracting-extensions/ocds_document_publisher_extension/master/extension.json"
+    "https://raw.githubusercontent.com/open-contracting-extensions/ocds_document_publisher_extension/master/extension.json",
+    "https://raw.githubusercontent.com/open-contracting-extensions/ocds_exclusionGrounds_extension/master/extension.json",
+    "https://raw.githubusercontent.com/open-contracting-extensions/ocds_selectionCriteria_extension/master/extension.json"
   ]
 }
