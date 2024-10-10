@@ -32,22 +32,6 @@ For complete guidance on meeting the disclosure requirements of European law, se
       "roles": [
         "informationService"
       ]
-    },
-    {
-      "roles": [
-        "eSender"
-      ]
-    },
-    {
-      "roles": [
-        "procurementServiceProvider"
-      ]
-    },
-    {
-      "roles": [
-        "leadTenderer",
-        "tenderer"
-      ]
     }
   ],
   "tender": {
@@ -190,7 +174,7 @@ Report issues for this extension in the [ocds-extensions repository](https://git
   * `Lot.hasAccessibilityCriteria`
   * `Lot.noAccessibilityCriteriaRationale`
   * `Lot.reviewDetails`
-  
+
 ### 2023-06-30
 
 * Add `Period.description` field.
