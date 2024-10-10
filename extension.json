@@ -14,11 +14,15 @@
   "schemas": [
     "release-schema.json"
   ],
+  "codelists": [
+    "sources.csv"
+  ],
   "contactPoint": {
     "name": "Open Contracting Partnership",
     "email": "data@open-contracting.org"
   },
   "testDependencies": [
-    "https://raw.githubusercontent.com/open-contracting-extensions/ocds_lots_extension/master/extension.json"
+    "https://raw.githubusercontent.com/open-contracting-extensions/ocds_lots_extension/master/extension.json",
+    "https://raw.githubusercontent.com/open-contracting-extensions/ocds_document_publisher_extension/master/extension.json"
   ]
 }

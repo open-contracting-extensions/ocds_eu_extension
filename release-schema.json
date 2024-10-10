@@ -27,8 +27,8 @@
           "items": {
             "$ref": "#/definitions/LegislativeReference"
           },
-          "uniqueItems": true,
           "wholeListMerge": true,
+          "uniqueItems": true,
           "minItems": 1
         }
       }
@@ -56,6 +56,15 @@
               "minLength": 1
             }
           }
+        },
+        "eDeliveryGateway": {
+          "title": "eDelivery gateway",
+          "description": "The organization's URL for the exchange of data and documents with eDelivery.",
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "uri"
         }
       }
     },
@@ -103,9 +112,22 @@
           "items": {
             "$ref": "#/definitions/Address"
           },
-          "uniqueItems": true,
           "wholeListMerge": true,
+          "uniqueItems": true,
           "minItems": 1
+        }
+      }
+    },
+    "Period": {
+      "properties": {
+        "description": {
+          "title": "Description",
+          "description": "The description of the period.",
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
         }
       }
     },
@@ -146,6 +168,74 @@
           "title": "Award period",
           "description": "The period for decision making regarding the contract award for the lot. The end date should be the date on which an award decision is due to be finalized. The start date may be used to indicate the start of an evaluation period.",
           "$ref": "#/definitions/Period"
+        },
+        "hasAccessibilityCriteria": {
+          "title": "Has accessibility criteria",
+          "description": "Whether the technical specifications for the lot include accessibility criteria for people with disabilities.",
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "noAccessibilityCriteriaRationale": {
+          "title": "No accessibility criteria rationale",
+          "description": "The rationale for not including accessibility criteria when the object of the lot is intended for use by natural persons.",
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "reviewDetails": {
+          "title": "Review details",
+          "description": "Precise information concerning the time limits for the review procedures for the lot or contact information from which it can be obtained.",
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        }
+      }
+    },
+    "ExclusionGrounds": {
+      "properties": {
+        "sources": {
+          "title": "Sources",
+          "description": "The sources in which the exclusion grounds are defined.",
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "epo-notice",
+              "epo-procurement-document",
+              "epo-sub-espd"
+            ]
+          },
+          "codelist": "sources.csv",
+          "openCodelist": false,
+          "uniqueItems": true,
+          "minItems": 1
+        }
+      }
+    },
+    "SelectionCriteria": {
+      "properties": {
+        "sources": {
+          "title": "Sources",
+          "description": "The sources in which the selection criteria are defined.",
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "epo-notice",
+              "epo-procurement-document",
+              "epo-sub-espd"
+            ]
+          },
+          "codelist": "sources.csv",
+          "openCodelist": false,
+          "uniqueItems": true,
+          "minItems": 1
         }
       }
     }

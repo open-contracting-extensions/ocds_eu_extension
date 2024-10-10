@@ -2,15 +2,7 @@
 
 Implements fields and codes that are specific to European law.
 
-For complete guidance on meeting the disclosure requirements of European law, see [OCDS for European Union](https://standard.open-contracting.org/profiles/eu/master/en/).
-
-## Guidance
-
-If items have at most one delivery address, use the [Location](https://extensions.open-contracting.org/en/extensions/location/) extension instead ([see discussion](https://github.com/open-contracting/ocds-extensions/issues/115)).
-
-## Legal context
-
-In the European Union, this extension's fields correspond to [eForms BT-99 (Review Deadline Description), BT-163 (Concession Value Description), BT-109 (Framework Duration Justification), BT-505 (Organisation Internet Address), BT-508 (Buyer Profile URL) and BG-708 (Place of Performance)](https://docs.ted.europa.eu/eforms/latest/reference/business-terms/). See [OCDS for the European Union](http://standard.open-contracting.org/profiles/eu/master/en/) for the correspondences to Tenders Electronic Daily (TED).
+For complete guidance on meeting the disclosure requirements of European law, see [OCDS for eForms](https://standard.open-contracting.org/profiles/eforms/latest/en/) for the 2019 regulation, or [OCDS for European Union](https://standard.open-contracting.org/profiles/eu/latest/en/) for the 2015 regulation.
 
 ## Example
 
@@ -37,6 +29,9 @@ In the European Union, this extension's fields correspond to [eForms BT-99 (Revi
     }
   ],
   "tender": {
+    "contractPeriod": {
+      "description": "unknown"
+    },
     "reviewDetails": "NHS Wales Shared Services Partnership on behalf of Cardiff and Vale University Local Health Board will allow a minimum 10 calendar day standstill period between notifying the award decision and awarding the contract.",
     "valueCalculationMethod": "Income from the sales of tickets over the duration of the contract minus the fees paid to the procuring entity.",
     "items": [
@@ -77,6 +72,9 @@ In the European Union, this extension's fields correspond to [eForms BT-99 (Revi
           "durationInDays": 30,
           "startDate": "2020-11-06T00:00:00Z",
           "endDate": "2020-12-06T00:00:00Z"
+        },
+        "contractPeriod": {
+          "description": "unknown"
         }
       }
     ],
@@ -86,7 +84,17 @@ In the European Union, this extension's fields correspond to [eForms BT-99 (Revi
         "type": "securityClearanceDeadline",
         "dueDate": "2020-11-19T00:00:00Z"
       }
-    ]
+    ],
+    "selectionCriteria": {
+      "sources": [
+        "epo-notice"
+      ]
+    },
+    "exclusionGrounds": {
+      "sources": [
+        "epo-notice"
+      ]
+    }
   },
   "awards": [
     {
@@ -117,6 +125,25 @@ Use the following extension URL for different versions of OCDS:
 Report issues for this extension in the [ocds-extensions repository](https://github.com/open-contracting/ocds-extensions/issues), putting the extension's name in the issue's title.
 
 ## Changelog
+
+### 2024-10-08
+
+* Add fields:
+  * `SelectionCriteria.sources`
+  * `ExclusionGrounds.sources`
+* Add `sources.csv` codelist
+
+### 2023-08-01
+
+* Add fields:
+  * `Organization.eDeliveryGateway`
+  * `Lot.hasAccessibilityCriteria`
+  * `Lot.noAccessibilityCriteriaRationale`
+  * `Lot.reviewDetails`
+
+### 2023-06-30
+
+* Add `Period.description` field.
 
 ### 2022-05-27
 
