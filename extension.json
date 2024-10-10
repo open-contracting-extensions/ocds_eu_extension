@@ -19,7 +19,8 @@
     "+itemClassificationScheme.csv",
     "+milestoneType.csv",
     "+partyRole.csv",
-    "+relatedProcessScheme.csv"
+    "+relatedProcessScheme.csv",
+    "sources.csv"
   ],
   "contactPoint": {
     "name": "Open Contracting Partnership",

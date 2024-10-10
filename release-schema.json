@@ -196,6 +196,48 @@
           "minLength": 1
         }
       }
+    },
+    "ExclusionGrounds": {
+      "properties": {
+        "sources": {
+          "title": "Sources",
+          "description": "The sources in which the exclusion grounds are defined.",
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "epo-notice",
+              "epo-procurement-document",
+              "epo-sub-espd"
+            ]
+          },
+          "codelist": "sources.csv",
+          "openCodelist": false,
+          "uniqueItems": true,
+          "minItems": 1
+        }
+      }
+    },
+    "SelectionCriteria": {
+      "properties": {
+        "sources": {
+          "title": "Sources",
+          "description": "The sources in which the selection criteria are defined.",
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "epo-notice",
+              "epo-procurement-document",
+              "epo-sub-espd"
+            ]
+          },
+          "codelist": "sources.csv",
+          "openCodelist": false,
+          "uniqueItems": true,
+          "minItems": 1
+        }
+      }
     }
   }
 }
