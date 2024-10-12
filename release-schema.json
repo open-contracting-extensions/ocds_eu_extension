@@ -103,21 +103,6 @@
         }
       }
     },
-    "Item": {
-      "properties": {
-        "deliveryAddresses": {
-          "title": "Delivery addresses",
-          "description": "The addresse(s) to which the supplier delivers the item.",
-          "type": "array",
-          "items": {
-            "$ref": "#/definitions/Address"
-          },
-          "wholeListMerge": true,
-          "uniqueItems": true,
-          "minItems": 1
-        }
-      }
-    },
     "Period": {
       "properties": {
         "description": {
