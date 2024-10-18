@@ -107,7 +107,7 @@
       "properties": {
         "deliveryAddresses": {
           "title": "Delivery addresses",
-          "description": "The addresse(s) to which the supplier delivers the item.",
+          "description": "The address(es) to which the supplier delivers the item.",
           "type": "array",
           "items": {
             "$ref": "#/definitions/Address"
@@ -242,6 +242,30 @@
           "openCodelist": false,
           "uniqueItems": true,
           "minItems": 1
+        }
+      }
+    },
+    "Bid": {
+      "properties": {
+        "foreignSubsidyMeasures": {
+          "title": "Foreign subsidy measures",
+          "description": "The measures applied under the Foreign Subsidies Regulation (EU) 2022/2560.",
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "fsr-adm-clos",
+            "fsr-commit",
+            "fsr-irregul",
+            "fsr-meat",
+            "fsr-no-obj",
+            "fsr-proh",
+            "fsr-stand",
+            null
+          ],
+          "codelist": "foreignSubsidyMeasures.csv",
+          "openCodelist": false
         }
       }
     }
