@@ -57,16 +57,7 @@ For complete guidance on meeting the disclosure requirements of European law, se
           "id": "45233130.0",
           "description": "Office supplies",
           "uri": "http://cpv.data.ac.uk/code-45233130"
-        },
-        "deliveryAddresses": [
-          {
-            "streetAddress": "4, North London Business Park, Oakleigh Rd S",
-            "locality": "London",
-            "region": "London",
-            "postalCode": "N11 1NP",
-            "countryName": "United Kingdom"
-          }
-        ]
+        }
       }
     ],
     "legislativeReferences": [
@@ -170,8 +161,9 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ### 2024-10-18
 
-* Add `Bid.foreignSubsidyMeasures` field
-* Add `foreignSubsidyMeasures.csv` codelist
+* Add `Bid.foreignSubsidyMeasures` field.
+* Add `foreignSubsidyMeasures.csv` codelist.
+* Remove `Item.deliveryAddresses` field (now in Location extension).
 
 ### 2024-10-08
 
