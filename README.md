@@ -34,6 +34,14 @@ For complete guidance on meeting the disclosure requirements of European law, se
       ]
     }
   ],
+  "bids": {
+    "details": [
+      {
+        "id": "1",
+        "foreignSubsidyMeasures": "fsr-stand"
+      }
+    ]
+  },
   "tender": {
     "contractPeriod": {
       "description": "unknown"
@@ -49,16 +57,7 @@ For complete guidance on meeting the disclosure requirements of European law, se
           "id": "45233130.0",
           "description": "Office supplies",
           "uri": "http://cpv.data.ac.uk/code-45233130"
-        },
-        "deliveryAddresses": [
-          {
-            "streetAddress": "4, North London Business Park, Oakleigh Rd S",
-            "locality": "London",
-            "region": "London",
-            "postalCode": "N11 1NP",
-            "countryName": "United Kingdom"
-          }
-        ]
+        }
       }
     ],
     "legislativeReferences": [
@@ -159,6 +158,12 @@ For complete guidance on meeting the disclosure requirements of European law, se
 Report issues for this extension in the [ocds-extensions repository](https://github.com/open-contracting/ocds-extensions/issues), putting the extension's name in the issue's title.
 
 ## Changelog
+
+### 2024-10-18
+
+* Add `Bid.foreignSubsidyMeasures` field.
+* Add `foreignSubsidyMeasures.csv` codelist.
+* Remove `Item.deliveryAddresses` field (now in Location extension).
 
 ### 2024-10-08
 
