@@ -15,6 +15,9 @@
     "release-schema.json"
   ],
   "codelists": [
+    "+classificationScheme.csv",
+    "+partyRole.csv",
+    "+relatedProcessScheme.csv",
     "sources.csv"
   ],
   "contactPoint": {
