@@ -126,6 +126,13 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ## Changelog
 
+### 2024-12-16
+
+* Add codelists:
+  * `+classificationScheme.csv`
+  * `+partyRole.csv`
+  * `+relatedProcessScheme.csv`
+
 ### 2024-10-08
 
 * Add fields:
