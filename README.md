@@ -144,9 +144,10 @@ For complete guidance on meeting the disclosure requirements of European law, se
     {
       "id": "1",
       "identifier": "123e4567-e89b-12d3-a456-426614174000",
+      "part": "PAR-0001",
       "scheme": "eu-oj",
       "relationship": [
-        "prior"
+        "planning"
       ]
     }
   ]
