@@ -211,7 +211,7 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ### 2022-05-27
 
-* Move `Lot.minimumValue` to the Lots extension as `Lot.minValue`.
+* Move `Lot.minimumValue` to the Lots extension.
 
 ### 2021-01-19
 
