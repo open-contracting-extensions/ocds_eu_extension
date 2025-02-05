@@ -143,10 +143,11 @@ For complete guidance on meeting the disclosure requirements of European law, se
   "relatedProcesses": [
     {
       "id": "1",
-      "identifier": "123e4567-e89b-12d3-a456-426614174000",
-      "scheme": "eu-oj",
+      "identifier": "123e4567-e89b-12d3-a456-426614174000-06",
+      "part": "PAR-0001",
+      "scheme": "eu-notice-id-ref",
       "relationship": [
-        "prior"
+        "planning"
       ]
     }
   ]
@@ -158,6 +159,14 @@ For complete guidance on meeting the disclosure requirements of European law, se
 Report issues for this extension in the [ocds-extensions repository](https://github.com/open-contracting/ocds-extensions/issues), putting the extension's name in the issue's title.
 
 ## Changelog
+
+### 2025-02-04
+
+* Add `RelatedProcess.part` field.
+* `+relatedProcessScheme.csv`:
+  * Add 'eu-notice-id-ref'
+  * Add 'eu-ojs-notice-id'
+  * Remove 'eu-oj'
 
 ### 2024-10-18
 
