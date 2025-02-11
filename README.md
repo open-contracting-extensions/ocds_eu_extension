@@ -163,7 +163,7 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 ### 2025-02-04
 
 * Add `RelatedProcess.part` field.
-* `+relatedProcessScheme.csv`:
+* Edit `+relatedProcessScheme.csv` codelist:
   * Add 'eu-notice-id-ref'
   * Add 'eu-ojs-notice-id'
   * Remove 'eu-oj'
@@ -171,7 +171,7 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 ### 2024-10-18
 
 * Add `Bid.foreignSubsidyMeasures` field.
-* Add `foreignSubsidyMeasures.csv` codelist.
+* Add a `foreignSubsidyMeasures.csv` codelist for `Bid.foreignSubsidyMeasures`.
 * Remove `Item.deliveryAddresses` field (now in Location extension).
 
 ### 2024-10-08
@@ -179,7 +179,7 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 * Add fields:
   * `SelectionCriteria.sources`
   * `ExclusionGrounds.sources`
-* Add `sources.csv` codelist
+* Add a `sources.csv` codelist for `SelectionCriteria.sources` and `ExclusionGrounds.sources`
 
 ### 2023-08-01
 
@@ -207,7 +207,7 @@ Report issues for this extension in the [ocds-extensions repository](https://git
     * 'submissionReceiptBody'
   * relatedProcessScheme.csv:
     * 'eu-oj'
-* Move 'informationService' from the `+partyRole.csv` codelist to the Document publisher extension.
+* Move 'informationService' from the `+partyRole.csv` codelist patch to the Document publisher extension.
 
 ### 2022-05-27
 
@@ -216,7 +216,7 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 ### 2021-01-19
 
 * Set the object type of `informationService` to `OrganizationReference`.
-* Add 'informationService' code to `+partyRole.csv` codelist.
+* Add 'informationService' code to the `+partyRole.csv` codelist patch.
 
 ### 2020-10-06
 
@@ -228,7 +228,7 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ### 2020-07-13
 
-* Add the 'securityClearanceDeadline' code to the `+milestoneType.csv` codelist.
+* Add 'securityClearanceDeadline' code to the `+milestoneType.csv` codelist patch.
 
 ### 2020-04-29
 
