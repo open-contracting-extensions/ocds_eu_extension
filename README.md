@@ -74,7 +74,14 @@ For complete guidance on meeting the disclosure requirements of European law, se
         },
         "contractPeriod": {
           "description": "unknown"
-        }
+        },
+        "additionalClassifications": [
+          {
+            "id": "oth-serv-contr",
+            "scheme": "eu-cvd-contract-type",
+            "description": "Other service contract"
+          }
+        ]
       }
     ],
     "milestones": [
@@ -98,7 +105,19 @@ For complete guidance on meeting the disclosure requirements of European law, se
   "awards": [
     {
       "id": "award-1",
-      "valueCalculationMethod": "The awarded value takes into account the growing revenue expected from fees and the value of the equipment provided by the contracting authority."
+      "valueCalculationMethod": "The awarded value takes into account the growing revenue expected from fees and the value of the equipment provided by the contracting authority.",
+      "items": [
+        {
+          "id": "1",
+          "additionalClassifications": [
+            {
+              "scheme": "eu-vehicle-category",
+              "id": "n2-n3",
+              "description": "Truck (N2-N3)"
+            }
+          ]
+        }
+      ]
     }
   ],
   "contracts": [
