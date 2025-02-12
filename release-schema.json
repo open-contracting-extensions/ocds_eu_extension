@@ -116,6 +116,19 @@
         }
       }
     },
+    "RelatedProcess": {
+      "properties": {
+        "part": {
+          "title": "Part",
+          "description": "The identifier of a part of a prior information notice, or another similar notice, that describes a planning process.",
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        }
+      }
+    },
     "LegislativeReference": {
       "title": "Legislative reference",
       "description": "Legislative reference and associated contact point",
@@ -227,6 +240,30 @@
           "openCodelist": false,
           "uniqueItems": true,
           "minItems": 1
+        }
+      }
+    },
+    "Bid": {
+      "properties": {
+        "foreignSubsidyMeasures": {
+          "title": "Foreign subsidy measures",
+          "description": "The measures applied under the Foreign Subsidies Regulation (EU) 2022/2560.",
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "fsr-adm-clos",
+            "fsr-commit",
+            "fsr-irregul",
+            "fsr-meat",
+            "fsr-no-obj",
+            "fsr-proh",
+            "fsr-stand",
+            null
+          ],
+          "codelist": "foreignSubsidyMeasures.csv",
+          "openCodelist": false
         }
       }
     }
