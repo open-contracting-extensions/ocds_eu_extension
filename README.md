@@ -183,7 +183,7 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 * Add fields:
   * `SelectionCriteria.sources`
   * `ExclusionGrounds.sources`
-* Add a `sources.csv` codelist for `SelectionCriteria.sources` and `ExclusionGrounds.sources`
+* Add a `sources.csv` codelist for `SelectionCriteria.sources` and `ExclusionGrounds.sources`.
 
 ### 2023-08-01
 
@@ -196,21 +196,18 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 ### 2023-06-30
 
 * Add `Period.description` field.
+* Add a `+classificationScheme.csv` codelist patch, with 'eu-vehicle-category' and 'eu-cvd-contract-type' codes.
+* Add a `+relatedProcessScheme.csv` codelist patch, with a 'eu-oj' code.
 * Add codes:
-  * classificationScheme.csv:
-    * 'eu-vehicle-category'
-    * 'eu-cvd-contract-type'
-  * documentType.csv:
+  * `+documentType.csv`:
     * 'legislation'
-  * partyRole.csv:
+  * `+partyRole.csv`:
     * 'procurementServiceProvider'
     * 'eSender'
     * 'leadBuyer'
     * 'leadTenderer'
     * 'evaluationBody'
     * 'submissionReceiptBody'
-  * relatedProcessScheme.csv:
-    * 'eu-oj'
 * Move 'informationService' from the `+partyRole.csv` codelist patch to the Document publisher extension.
 
 ### 2022-05-27
