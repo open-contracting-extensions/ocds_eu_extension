@@ -28,6 +28,14 @@ For complete guidance on meeting the disclosure requirements of European law, se
       ]
     }
   ],
+  "bids": {
+    "details": [
+      {
+        "id": "1",
+        "foreignSubsidyMeasures": "fsr-stand"
+      }
+    ]
+  },
   "tender": {
     "contractPeriod": {
       "description": "unknown"
@@ -43,16 +51,7 @@ For complete guidance on meeting the disclosure requirements of European law, se
           "id": "45233130.0",
           "description": "Office supplies",
           "uri": "http://cpv.data.ac.uk/code-45233130"
-        },
-        "deliveryAddresses": [
-          {
-            "streetAddress": "4, North London Business Park, Oakleigh Rd S",
-            "locality": "London",
-            "region": "London",
-            "postalCode": "N11 1NP",
-            "countryName": "United Kingdom"
-          }
-        ]
+        }
       }
     ],
     "legislativeReferences": [
@@ -75,7 +74,14 @@ For complete guidance on meeting the disclosure requirements of European law, se
         },
         "contractPeriod": {
           "description": "unknown"
-        }
+        },
+        "additionalClassifications": [
+          {
+            "id": "oth-serv-contr",
+            "scheme": "eu-cvd-contract-type",
+            "description": "Other service contract"
+          }
+        ]
       }
     ],
     "milestones": [
@@ -99,7 +105,19 @@ For complete guidance on meeting the disclosure requirements of European law, se
   "awards": [
     {
       "id": "award-1",
-      "valueCalculationMethod": "The awarded value takes into account the growing revenue expected from fees and the value of the equipment provided by the contracting authority."
+      "valueCalculationMethod": "The awarded value takes into account the growing revenue expected from fees and the value of the equipment provided by the contracting authority.",
+      "items": [
+        {
+          "id": "1",
+          "additionalClassifications": [
+            {
+              "scheme": "eu-vehicle-category",
+              "id": "n2-n3",
+              "description": "Truck (N2-N3)"
+            }
+          ]
+        }
+      ]
     }
   ],
   "contracts": [
@@ -108,6 +126,17 @@ For complete guidance on meeting the disclosure requirements of European law, se
       "periodRationale": "The duration of the contract has been extended to anticipate the exceptional snowfall expected in January.",
       "publicPassengerTransportServicesKilometers": 765,
       "awardID": "award-1"
+    }
+  ],
+  "relatedProcesses": [
+    {
+      "id": "1",
+      "identifier": "123e4567-e89b-12d3-a456-426614174000-06",
+      "part": "PAR-0001",
+      "scheme": "eu-notice-id-ref",
+      "relationship": [
+        "planning"
+      ]
     }
   ]
 }
@@ -128,21 +157,29 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ### 2025-02-11
 
-* Add 'eu-vehicles' to `+classificationScheme.csv`.
+* Add 'eu-vehicles' code to the `+classificationScheme.csv` codelist patch.
+* Add a `+partyRole.csv` codelist patch, with 'procurementServiceProvider' and 'eSender' codes.
 
-### 2024-12-16
+### 2025-02-04
 
-* Add codelists:
-  * `+classificationScheme.csv`
-  * `+partyRole.csv`
-  * `+relatedProcessScheme.csv`
+* Add `RelatedProcess.part` field.
+* Update the `+relatedProcessScheme.csv` codelist patch:
+  * Add 'eu-notice-id-ref'
+  * Add 'eu-ojs-notice-id'
+  * Remove 'eu-oj'
+
+### 2024-10-18
+
+* Add `Bid.foreignSubsidyMeasures` field.
+* Add a `foreignSubsidyMeasures.csv` codelist for `Bid.foreignSubsidyMeasures`.
+* Remove `Item.deliveryAddresses` field (now in Location extension).
 
 ### 2024-10-08
 
 * Add fields:
   * `SelectionCriteria.sources`
   * `ExclusionGrounds.sources`
-* Add `sources.csv` codelist
+* Add a `sources.csv` codelist for `SelectionCriteria.sources` and `ExclusionGrounds.sources`.
 
 ### 2023-08-01
 
@@ -155,6 +192,8 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 ### 2023-06-30
 
 * Add `Period.description` field.
+* Add a `+classificationScheme.csv` codelist patch, with 'eu-vehicle-category' and 'eu-cvd-contract-type' codes.
+* Add a `+relatedProcessScheme.csv` codelist patch, with a 'eu-oj' code.
 
 ### 2022-05-27
 
@@ -170,7 +209,7 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 ### 2021-01-19
 
 * Set the object type of `informationService` to `OrganizationReference`.
-* Add 'informationService' code to `+partyRole.csv` codelist.
+* Add 'informationService' code to the `+partyRole.csv` codelist patch.
 
 ### 2020-10-06
 
@@ -182,7 +221,7 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ### 2020-07-13
 
-* Add the 'securityClearanceDeadline' code to the `+milestoneType.csv` codelist.
+* Add 'securityClearanceDeadline' code to the `+milestoneType.csv` codelist patch.
 
 ### 2020-04-29
 
