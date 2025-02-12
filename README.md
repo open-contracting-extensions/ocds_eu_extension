@@ -162,12 +162,12 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ### 2025-02-11
 
-* Add 'eu-vehicles' to `+itemClassificationScheme.csv`.
+* Add 'eu-vehicles' code to the `+itemClassificationScheme.csv` codelist patch.
 
 ### 2025-02-04
 
 * Add `RelatedProcess.part` field.
-* Update the `+relatedProcessScheme.csv` codelist:
+* Update the `+relatedProcessScheme.csv` codelist patch:
   * Add 'eu-notice-id-ref'
   * Add 'eu-ojs-notice-id'
   * Remove 'eu-oj'
