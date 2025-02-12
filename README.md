@@ -163,7 +163,7 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 ### 2025-02-04
 
 * Add `RelatedProcess.part` field.
-* Edit `+relatedProcessScheme.csv` codelist:
+* Update the `+relatedProcessScheme.csv` codelist:
   * Add 'eu-notice-id-ref'
   * Add 'eu-ojs-notice-id'
   * Remove 'eu-oj'
