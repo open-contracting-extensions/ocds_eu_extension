@@ -158,6 +158,7 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 ### 2025-02-11
 
 * Add 'eu-vehicles' code to the `+classificationScheme.csv` codelist patch.
+* Add a `+partyRole.csv` codelist patch, with 'procurementServiceProvider' and 'eSender' codes.
 
 ### 2025-02-04
 
