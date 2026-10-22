@@ -160,6 +160,10 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ## Changelog
 
+### 2026-10-21
+
+* Add 'eu-energy-efficiency-basis', 'eu-energy-efficiency-item' and 'eu-energy-efficiency-label' codes to the `+itemClassificationScheme.csv` codelist patch.
+
 ### 2025-02-11
 
 * Add 'eu-vehicles' code to the `+itemClassificationScheme.csv` codelist patch.
